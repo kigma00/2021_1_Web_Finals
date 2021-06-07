@@ -1,0 +1,702 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+header .container-fluid{
+  padding: 0.5% 2.5%;
+}
+
+.navbar{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.navbar-brand{
+  font-size: 1.5vw!important;
+  padding-left: 1%;
+}
+
+.navbar-light .navbar-toggler{
+  position: relative;
+  right: 4%;
+}
+
+.navbar-nav .dropdown-menu{
+  width: 95.5%;
+}
+
+svg{
+  color: white;
+}
+
+li{
+  padding: 0 2.5%;
+}
+
+ul{
+  justify-content: flex-end;
+  width: 1000px;
+  margin-right: 0;
+  margin-left: 30%;
+}
+
+.nav-link{
+  font-size: 1.4vw;
+}
+
+.dropdown-item{
+  font-size: 1.2vw;
+}
+
+.dropdown-menu{
+  min-width: 0rem!important;
+}
+
+#main{
+  background-color: green;
+  height: 41vw;
+}
+
+#main .container{
+  height: 100%;
+  padding: 1vw 0.4vw;
+}
+
+h1{
+  padding: 100px 0 100px 0;
+  float: left;
+  font-size: 4.2vw!important;
+  color: #EEE7E0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-shadow: 1px 1px 0px white;
+}
+
+.mySlides {
+  display: none
+}
+
+#main img {
+  vertical-align: middle;
+}
+
+.big-slideshow-container {
+  position: relative;
+  top: 2%;
+  margin: auto;
+  float: right;
+}
+
+.slideshow-container img{
+  width: 36vw;
+  height: 34vw;
+}
+
+.big-dot{
+  text-align: center;
+  padding-top: 2%;
+}
+
+.dot {
+  height: 1.2vw;
+  width: 1.2vw;
+  background-color: #717171;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#main .active, .dot:hover {
+  background-color: #bbb;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 4.5s;
+  animation-name: fade;
+  animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9} 
+  to {opacity: 1}
+}
+
+/*팀프로젝트 페이지 시작*/
+
+#teamproject{
+  font-family: 'NanumSquare', sans-serif;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+h2{
+  font-family: 'Jua', sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: green;
+  font-size: 2.8vw!important;
+}
+
+.ex{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6vw;
+}
+
+.img-box{
+  text-align: center;
+  padding-bottom: 7%;
+  padding-top: 1%;
+}
+
+.img-box img{
+  width: 57vw;
+}
+
+h3{
+  font-weight: bold!important;
+  font-size: 1.5vw!important;
+  padding-bottom: 1.5%;
+}
+
+.ex2{
+  font-size: 1.4vw;
+  margin-bottom: 0.8%;
+}
+
+.ex3{
+  font-size: 1.4vw;
+}
+
+.big_team_container{
+  margin-top: 7%;
+  font-weight: bold;
+}
+
+#teamproject .card{
+  height: 220px;
+}
+
+#teamproject .card-text{
+  height: 22px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#teamproject h5{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+#teamproject .card-text, #teamproject .card-body a{
+  font-size: 1.2vw;
+}
+
+/* 팀프로젝트 끝 */
+
+footer {
+  font-family: 'NanumSquare', sans-serif;
+  font-size: 1.1vw;
+  color: gray;
+  padding: 1%;
+  margin-top: 0.8%;
+  text-align: center;
+}
+
+#portfolio{
+  background-color: green;
+  padding: 1.5% 0;
+  padding-bottom: 5%;
+  font-family: 'NanumSquare', sans-serif;
+}
+
+.portfolio-box{
+  background-color: #FBFBFB;
+  margin: auto;
+  height: 1000px; 
+  width: 80%;
+  border-radius: 15px;
+}
+
+#portfolio .container{
+  padding-top: 5%;
+  width: 80%;
+  text-align: center;
+}
+
+#portfolio svg{
+  color: black;
+  margin: 0 1%;
+}
+
+.portfolio-gallery-box{
+  padding-top: 7%;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+#portfolio .accordion-button{
+  font-size: 1.5vw!important;
+}
+
+.accordion-button{
+  font-family: 'NanumSquare', sans-serif;
+  font-weight: bolder;
+}
+
+.alert-primary{
+  text-align: left;
+}
+
+.accordion{
+  text-align: left;
+  font-size: 1.3vw;
+  margin-bottom: 1.5%;
+}
+
+.accordion-button{
+  font-size: 1.3vw!important;
+}
+
+#teamproject .card{
+  margin-bottom: 2%;
+}
+
+.card-header svg{
+  color: black;
+}
+
+#js{
+  background-color: #334E70;
+  padding: 1.5% 0;
+  font-family: 'NanumSquare', sans-serif;
+  text-align: center;
+}
+
+.js-box{
+  background-color: #FBFBFB;
+  margin: auto;
+  height: 820px; 
+  width: 80%;
+  border-radius: 15px;
+}
+
+#js .js-box .container{
+  padding-top: 5%;
+  text-align: center;
+}
+
+h4{
+  font-size: 1.7vw;
+  font-weight: bold!important;
+  padding-bottom: 1%;
+}
+
+#js h5{
+  font-size: 1.5vw;
+  font-weight: bold!important;
+  border: 5px solid#63CCC8;
+  color:#334E70;
+  text-align: center;
+  padding: 9px;
+  width: 23%;
+  margin: auto;
+  margin-bottom: 7%!important;
+}
+
+.js-box button{
+  font-weight: bold;
+  font-size: 1.4vw;
+  margin: 0.3%;
+}
+
+#rsp{
+  margin: 3% 3%;
+  font-family: 'NanumSquare', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+h6{
+  font-weight: bolder!important;
+  font-size: 2vw!important;
+}
+
+#rsp-ex{
+  margin-top: 3%;
+  font-weight: normal;
+  border: 6px solid #F5D1C6;
+  width: 51.5%;
+}
+
+#rsp-ex p{
+  padding: 15px;
+  margin: auto;
+}
+
+#rsp img{
+  width: 9vw;
+}
+
+#num{
+  margin: 3% 3%;
+  font-family: 'NanumSquare', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+.guess{
+  margin-top: 3%;
+}
+
+#car{
+  margin: 3% 3%;
+  font-family: 'NanumSquare', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+#obstacle{
+  margin: 3% 3%;
+  font-family: 'NanumSquare', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+#button-box{
+  margin-bottom: 7%;
+}
+
+#drow{
+  margin: 3% 3%;
+  font-family: 'NanumSquare', sans-serif;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+#movie{
+  background-color: #334E70;
+  padding: 1.5% 0;
+  font-family: 'NanumSquare', sans-serif;
+  text-align: center;
+}
+
+.movie-box{
+  background-color: #FBFBFB;
+  margin: auto;
+  height: 1040px; 
+  width: 80%;
+  border-radius: 15px;
+}
+
+#movie .movie-box .container{
+  padding-top: 5%;
+  text-align: center;
+}
+
+#movie .movie-box .container button{
+  margin: 3px;
+}
+
+#movie .card{
+  margin: auto;
+}
+
+#movie .card img{
+  width: 95%;
+  float: left;
+}
+
+#movie .card-title{
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+#movie .card-text{
+  text-align: left;
+  padding: 5% 0;
+  font-size: 1.2vw;
+}
+
+#movie-button{
+  margin-bottom: 5%;
+}
+
+.gallery img:hover{
+  transform: perspective(600px)rotateY(25deg);
+}
+
+.gallery2 img:hover{
+  transform: perspective(150px) translateZ(10px);
+}
+
+.gallery3 img:hover{
+  transform: perspective(600px)rotateY(337deg);
+}
+
+#survey_back{
+  background-image: url("img/survey.jpg");
+  height: 100%;
+}
+
+#survey_back footer p{
+  color: white;
+}
+
+#trans{
+  background-color: white;
+  width: 80%;
+  height: 70vw;
+  margin: 7% 10%;
+  border-radius: 90px;
+  opacity: 85%;
+  text-align: center;
+  font-family: 'NanumSquare';
+  font-size: 1.3vw;
+}
+
+#thank{
+  position: relative;
+  top: 8%;
+  font-size: 3vw;
+  font-weight: normal;
+  text-shadow: 0.1vw 0.1vw gray;
+}
+
+#thank2{
+  position: relative;
+  top: 5%;
+  font-weight: bold;
+}
+
+legend{
+  font-size: 1.8vw;
+}
+
+fieldset{
+  text-align: left;
+  margin: 8% 8%;
+}
+
+fieldset div{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+label{
+  padding-right: 10%;
+}
+
+input{
+  margin-top: 1.2%;
+}
+
+textarea{
+  margin-top: 1.2%;
+}
+
+#female{
+  position: relative;
+  left: 1.18vw;
+}
+
+#self_url{
+  position: relative;
+  left: -5.12vw;
+}
+
+#recommend{
+  position: relative;
+  left: 1vw;
+}
+
+#survey_back button{
+  border-radius: 5px;
+  font-size: 1.2vw;
+  position: relative;
+  bottom: 4.5vw;
+  left: 27.8vw;
+  width: 5vw;
+  height: 2.5vw;
+  line-height: 0.2vw;
+  background-color: #FF867F;
+  border: 1px solid #3B3838;
+  color:#fff;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+#submit_main{
+  margin: 10% 10%;
+  text-align: center;
+  font-family: 'NanumSquare';
+  font-weight: bold;
+}
+
+#submit_main p, #submit_main a{
+  font-size: 1.2vw;
+}
+
+#submit_img{
+  width: 20vw;
+}
+
+#submit_main a{
+  color: green;
+}
+
+
+@media(min-width: 1550px){
+  #main .container{
+    margin-right: 105px;
+  }
+
+  h1{
+    position: relative;
+    top: 5%;
+    right: 3%;
+  }
+}
+
+@media (max-width: 991.98px){
+  #main{
+    height: 1000px;
+  }
+
+  .navbar-brand{
+    display: none;;
+  }
+
+  .navbar-nav .nav-link{
+    font-size: 3.5vw;
+  }
+
+  .navbar-collapse{
+    width: 6vw;
+  }
+
+  .navbar-nav .dropdown-menu{
+    width: 20vw;
+  }
+
+  .dropdown-item{
+    font-size: 3.2vw;
+  }
+
+  ul{
+    width: 10vw;
+    position: relative;
+    left: 44%;
+  }
+
+  h1{
+    float: none;
+    text-align: center;
+    font-size: 8vw!important;
+  }
+
+  .big-slideshow-container{
+    float: none;
+    text-align: center;
+  }
+
+  .slideshow-container img{
+    width: 76vw;
+    height: 74vw;
+  }
+
+  .dot {
+    height: 2.7vw;
+    width: 2.7vw;
+  }
+
+  /*팀프로젝트 페이지 시작*/
+
+  #teamproject{
+    margin-top: 7%;
+  }
+
+  #teamproject h2{
+    font-size: 7vw!important;
+  }
+
+  .ex{
+    font-size: 4vw;
+  }
+
+  .img-box img{
+    width: 80vw;
+  }
+
+  h3{
+    font-size: 3vw!important;
+  }
+
+  .ex2, .ex3{
+    font-size: 3vw;
+  }
+
+  #teamproject .card{
+    height: 200px;
+  }
+  
+  #teamproject h5{
+    font-size: 3.5vw;
+  }
+
+  #teamproject .btn{
+    margin-top: 2%;
+  }
+  
+  #teamproject .card-text, #teamproject .card-body a{
+    font-size: 3vw;
+  }
+
+  /* 팀프로젝트 끝 */
+
+  .accordion{
+    font-size: 2.7vw;
+  }
+
+  .portfolio-box{
+    width: 90%;
+    height: 680px;
+  }
+
+  .portfolio-box .container{
+    padding-top: 12%!important;
+    width: 400px!important;
+  }
+
+  #portfolio .accordion-button{
+    font-size: 3vw!important;
+  }
+
+  .alert{
+    font-size: 3vw;
+  }
+
+  .portfolio-gallery-box p{
+    font-size: 3.5vw;
+  }
+
+  h4{
+    font-size: 3vw;
+  }
+
+  footer {
+    font-size: 2.4vw;
+    color: gray;
+    padding: 1%;
+    margin-top: 1%;
+    text-align: center;
+  }
+
+}
